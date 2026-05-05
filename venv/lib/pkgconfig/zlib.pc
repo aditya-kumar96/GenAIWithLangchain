@@ -1,0 +1,13 @@
+prefix=/Users/aadikatiyaan/Desktop/aadiProjects/GenAI/venv
+exec_prefix=/Users/aadikatiyaan/Desktop/aadiProjects/GenAI/venv
+libdir=/Users/aadikatiyaan/Desktop/aadiProjects/GenAI/venv/lib
+sharedlibdir=/Users/aadikatiyaan/Desktop/aadiProjects/GenAI/venv/lib
+includedir=/Users/aadikatiyaan/Desktop/aadiProjects/GenAI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
